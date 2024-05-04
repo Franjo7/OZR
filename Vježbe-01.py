@@ -1,4 +1,5 @@
-print("VJEŽBE 1.1\n")
+print("\n")
+print("VJEŽBE - 01 \n")
 
 # PRVI ZADATAK (1)
 # Zadan je rezultat mjerenja 𝑥 = 20.5 ± 0.7, odredite relativnu grešku.
@@ -57,6 +58,7 @@ relativna_greska = apsolutna_greska / abs((y_x * x_x + x_x * z_x) / z_x)
 
 print("Apsolutna greška je:", round(apsolutna_greska, 2))                        # Apsolutna greška je: 2078.85
 print("Relativna greška je:", round(relativna_greska * 100, 2), "%.")            # Relativna greška je: 0.07 %.
+print("\n")
 
 
 
@@ -69,7 +71,7 @@ print("Relativna greška je:", round(relativna_greska * 100, 2), "%.")          
 # Derivacija po y = 2 * x
 # Derivacija po z = 3 * z^2
 
-print("\nČETVRTI ZADATAK")
+print("ČETVRTI ZADATAK")
 
 x_x = 8.00
 delta_x = 0.1
@@ -83,6 +85,7 @@ relativna_greska = apsolutna_greska / abs(2 * x_x * y_x + z_x ** 3 * y_x)
 
 print("Apsolutna greška je:", apsolutna_greska)                                 # Apsolutna greška je: 2.104
 print("Relativna greška je:", round(relativna_greska * 100, 2), "%.")           # Relativna greška je: 2.35 %.
+print("\n")
 
 
 
@@ -93,7 +96,7 @@ print("Relativna greška je:", round(relativna_greska * 100, 2), "%.")          
 # nastaje rotacijom kruga radijusa 𝑟, čije je središte za 𝑎 udaljeno od centra rotacije ako je
 # 𝑟 = 20.00 ± 0.2 , 𝑎 = 100 ± 0.5 .
 
-print("\nPETI ZADATAK")
+print("PETI ZADATAK")
 
 r_x = 20.00
 delta_r = 0.2
@@ -105,6 +108,7 @@ relativna_greska = apsolutna_greska / abs(2 * a_x * r_x ** 2 * pi ** 2)
 
 print("Apsolutna greška je:", round(apsolutna_greska, 2))                       # Apsolutna greška je: 19739.21
 print("Relativna greška je:", round(relativna_greska * 100, 2), "%.")           # Relativna greška je: 2.5 %.
+print("\n")
 
 
 
@@ -113,7 +117,7 @@ print("Relativna greška je:", round(relativna_greska * 100, 2), "%.")          
 # ŠESTI ZADATAK (8)
 # Izračunajte apsolutnu i relativnu uvjetovanost funkcije 𝑓(𝑥) = ln(𝑥) u okolini točke 𝑥0 = 2.
 
-print("\nŠESTI ZADATAK")
+print("ŠESTI ZADATAK")
 
 from math import *
 
@@ -123,3 +127,4 @@ relativna_uvjetovanost = abs(1 / log(x0))
 
 print("Apsolutna uvjetovanost je:", apsolutna_uvjetovanost)                     # Apsolutna uvjetovanost je: 0.5
 print("Relativna uvjetovanost je:", round(relativna_uvjetovanost, 2))           # Relativna uvjetovanost je: 1.44
+print("\n")
