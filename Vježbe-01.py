@@ -80,11 +80,11 @@ delta_y = 0.04
 z_x = 2.40
 delta_z = 0.05
 
-apsolutna_greska = abs((2 * y_x) * delta_x + abs(2 * x_x) * delta_y + abs(3 * z_x ** 2) * delta_z)
+apsolutna_greska = abs((2 * y_x) * delta_x + abs(2 * x_x + z_x **3 ) * delta_y + abs(3 * z_x ** 2 * y_x) * delta_z)
 relativna_greska = apsolutna_greska / abs(2 * x_x * y_x + z_x ** 3 * y_x)
 
-print("Apsolutna greška je:", apsolutna_greska)                                 # Apsolutna greška je: 2.104
-print("Relativna greška je:", round(relativna_greska * 100, 2), "%.")           # Relativna greška je: 2.35 %.
+print("Apsolutna greška je:", round(apsolutna_greska, 2))                       # Apsolutna greška je: 4.38
+print("Relativna greška je:", round(relativna_greska * 100, 2), "%.")           # Relativna greška je: 4.9 %.
 print("\n")
 
 
