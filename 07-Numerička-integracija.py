@@ -283,3 +283,45 @@ print("Stvarna apsolutna pogreška:", stvarna_apsolutna_pogreska)
 # Stvarna apsolutna pogreška: 6.5816619641001495e-06
 
 print("\n")
+
+
+
+
+
+# OSMI ZADATAK
+# Upotrebom produljene Simpsonove i trapezne formule na četiri podintervala izračunajte 
+# integral funkcije f(x) = ln(x) * dx na intervalu [1, 3]. 
+
+print("OSMI ZADATAK")
+
+from numpy import *
+from scipy import integrate as i
+
+a = 1
+b = 3
+f = lambda x: log(x)
+
+n = 4
+x = linspace(a, b, n + 1)
+
+produljena_trapezna_formula = i.trapezoid(f(x), x)
+print("Integral funkcije preko produljene trapezne formule:", produljena_trapezna_formula)
+# Integral funkcije preko produljene trapezne formule: 1.2821045824381598
+
+produljena_simpsonova_formula = i.simpson(f(x), x)
+print("Integral funkcije preko produljene Simpsonove formule:", produljena_simpsonova_formula)
+# Integral funkcije preko produljene Simpsonove formule: 1.295321668286213
+
+integral_prava_vrijednost = i.quad(f, a, b)[0]
+print("Prava vrijednost integrala:", integral_prava_vrijednost)
+# Prava vrijednost integrala: 1.2958368660043291
+
+stvarna_apsolutna_pogreska_trapezna = abs(produljena_trapezna_formula - integral_prava_vrijednost)
+print("Stvarna apsolutna pogreška trapezne formule:", stvarna_apsolutna_pogreska_trapezna)
+# Stvarna apsolutna pogreška trapezne formule: 0.01373228356616929
+
+stvarna_apsolutna_pogreska_simpsonova = abs(produljena_simpsonova_formula - integral_prava_vrijednost)
+print("Stvarna apsolutna pogreška Simpsonove formule:", stvarna_apsolutna_pogreska_simpsonova)
+# Stvarna apsolutna pogreška Simpsonove formule: 0.0005151977181161449
+
+print("\n")
