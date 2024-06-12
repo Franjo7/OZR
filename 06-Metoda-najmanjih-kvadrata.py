@@ -1,5 +1,6 @@
 print("\n")
 print("VJEŽBE - 06 \n")
+print("METODA NAJMANJIH KVADRATA \n")
 
 # PRVI ZADATAK
 # Neka je zadano pet točaka u ravnini:

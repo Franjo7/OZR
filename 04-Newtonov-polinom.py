@@ -1,5 +1,6 @@
 print("\n")
 print("VJEŽBE - 04 \n")
+print("NEWTONOV POLINOM \n")
 
 # PRVI ZADATAK
 # Aproksimirajte Lagrangeovim polinomom funkciju (x ** 2) * (e ** x).

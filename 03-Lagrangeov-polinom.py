@@ -1,5 +1,6 @@
 print("\n")
 print("VJEŽBE - 03 \n")
+print("LAGRANGEOV POLINOM \n")
 
 # ZADATAK SA PREDAVANJA (Interpolacija - Lagrangeov polinom)
 # Odredite interpolacijski polinom ako su zadani uvjeti: p(0) = 3, p(2) = 4, p(4) = 2. 

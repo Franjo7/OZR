@@ -1,5 +1,6 @@
 print("\n")
 print("VJEŽBE - 01 \n")
+print("APSOLUTNA I RELATIVNA GREŠKA \n")
 
 # PRVI ZADATAK (1)
 # Zadan je rezultat mjerenja 𝑥 = 20.5 ± 0.7, odredite relativnu grešku.

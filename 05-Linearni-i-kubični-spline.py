@@ -1,5 +1,6 @@
 print("\n")
 print("VJEŽBE - 05 \n")
+print("LINEARNI I KUBIČNI SPLINE \n")
 
 # PRVI ZADATAK
 # Aproksimirajte linearnim splajnom funkciju x ** 2 * sin(x) na intervalu [-π, π].

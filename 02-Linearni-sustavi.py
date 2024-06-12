@@ -1,5 +1,6 @@
 print("\n")
 print("VJEŽBE - 02 \n")
+print("LINEARNI SUSTAVI \n")
 
 # PRVI ZADATAK - prvi dio
 # Ispitajte je li sustav linearnih jednadžbi dobro ili loše uvjetovan. Izračunati rješenje i za b = [2, 2.001].
