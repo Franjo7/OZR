@@ -1,5 +1,6 @@
 print("\n")
 print("VJEŽBE - 07 \n")
+print("NUMERIČKA INTEGRACIJA \n")
 
 print("Zadatke riješiti upotrebom odgovarajuće Newton-Cotesove formule.")
 print("\n")

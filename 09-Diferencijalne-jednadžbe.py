@@ -1,5 +1,6 @@
 print("\n")
 print("VJEŽBE - 09 \n")
+print("DIFERENCIJALNE JEDNADŽBE \n")
 
 print("Zadatke treba riješiti upotrebom scipy.integrate.odeint ili neke druge preporučene metode.")
 print("\n")

@@ -1,5 +1,6 @@
 print("\n")
 print("VJEŽBE - 08 \n")
+print("NELINEARNE JEDNADŽBE \n")
 
 # PRVI ZADATAK
 # Funkcija f: R -> R, zadana je formulom f(x) = x ** 5 - x ** 3 - 2.
